@@ -32,7 +32,7 @@ public class CountFreq {
         for(Map.Entry e:m.entrySet())
             if((int)e.getValue()==1) c++;
         if(sa.length/2==c){
-            System.out.println("All the quidelines are followed by "+s);
+            System.out.println("All the guidelines are followed by "+s);
         }else{
             System.out.println(s+" does not follow the guidelines given");
         }
