@@ -26,6 +26,10 @@ class ToDoBussinessMock {
         List<String> combinedlist = Arrays.asList("Use Hibernate Java",
                 "Use Hibernate Core", "Use Hibernate", "Use Spring MVC");
         given(servicemock.getAllTodos("dummy")).willReturn(combinedlist);
+<<<<<<< HEAD
         // added a comment in main branch
+=======
+        // A comment is added in my-other-branch
+>>>>>>> my-other-branch
     }
 }
