@@ -21,11 +21,11 @@ class ToDoBussinessMock {
     ToDoService servicemock;
 
     @Test
-    public void deleteTodoUsingMock(){
+    public void deleteTodoUsingMock() {
         // Given
         List<String> combinedlist = Arrays.asList("Use Hibernate Java",
                 "Use Hibernate Core", "Use Hibernate", "Use Spring MVC");
         given(servicemock.getAllTodos("dummy")).willReturn(combinedlist);
-
+        // added a comment in main branch
     }
 }
